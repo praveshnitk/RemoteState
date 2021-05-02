@@ -1,0 +1,66 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="dots_height">30dp</dimen>
+
+    <dimen name="fastscroll_bubble_radius">44dp</dimen>
+
+    <!--Font size overall app-->
+
+    <dimen name="font_micro">9sp</dimen>
+    <dimen name="font_xsmall">10sp</dimen>
+    <dimen name="font_small">12sp</dimen>
+    <dimen name="font_normal">14sp</dimen>
+    <dimen name="font_medium">16sp</dimen>
+    <dimen name="font_large">18sp</dimen>
+    <dimen name="font_xxlarge">22sp</dimen>
+    <dimen name="font_xxxlarge">26sp</dimen>
+
+    <!--Margin and padding overall app-->
+
+    <dimen name="xmicro">1dp</dimen>
+    <dimen name="micro">2dp</dimen>
+    <dimen name="xsmall">3dp</dimen>
+    <dimen name="small">5dp</dimen>
+    <dimen name="normal">6dp</dimen>
+    <dimen name="medium">10dp</dimen>
+    <dimen name="large">15dp</dimen>
+    <dimen name="xlarge">20dp</dimen>
+    <dimen name="xxlarge">25dp</dimen>
+    <dimen name="xxxlarge">28dp</dimen>
+    <dimen name="tvlarge">35dp</dimen>
+
+    <dimen name="text_height_xsmall">35dp</dimen>
+    <dimen name="button_height_xsmall">28dp</dimen>
+    <dimen name="button_height_small">38dp</dimen>
+    <dimen name="button_height_normal">45dp</dimen>
+    <dimen name="button_height_medium">60dp</dimen>
+    <dimen name="corner_radius">3dp</dimen>
+    <dimen name="layer_padding">3dp</dimen>
+    <dimen name="switch_button_margin">96dp</dimen>
+    <dimen name="clock_size">96dp</dimen>
+    <dimen name="time_ticker_size">72dp</dimen>
+    <dimen name="time_ticker_font">12sp</dimen>
+    <dimen name="splash_logo">150dp</dimen>
+    <dimen name="mapsize">225dp</dimen>
+
+    <dimen name="underline_top_spacing">8dp</dimen>
+    <dimen name="underline_bottom_spacing">4dp</dimen>
+    <dimen name="error_label_spacing">12dp</dimen>
+    <dimen name="floating_label_top_spacing">4dp</dimen>
+    <dimen name="floating_label_bottom_spacing">8dp</dimen>
+    <dimen name="floating_label_inside_spacing">12dp</dimen>
+    <dimen name="right_left_spinner_padding">8dp</dimen>
+    <dimen name="label_text_size">12sp</dimen>
+    <dimen name="min_content_height">20dp</dimen>
+
+    <dimen name="section_padding">7dp</dimen>
+    <dimen name="item_margin">3dp</dimen>
+
+    <dimen name="progress_dialog_height_weight">80dp</dimen>
+
+    <dimen name="tab_large">28dp</dimen>
+    <dimen name="tab_xlarge">35dp</dimen>
+    <dimen name="progress_height_width">80dp</dimen>
+</resources>

@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">RemoteState</string>
+    <string name="google_maps_key" templateMergeStrategy="preserve" translatable="false">AIzaSyBr6j1H_piOXw2xy8uZJtmULJhVSTvZySI</string>
+</resources>

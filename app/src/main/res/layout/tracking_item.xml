@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="3dp"
+    android:background="@drawable/rounded_white_dialog_white_stroke"
+    android:orientation="horizontal"
+    android:gravity="center"
+    android:id="@+id/llFull"
+    android:padding="4dp">
+
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="4.7"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="3"
+            android:layout_marginTop="2dp"
+            android:layout_marginBottom="2dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.8"
+                android:id="@+id/tvLatitude"
+                android:textSize="12dp"
+                android:padding="2dp"
+                android:textStyle="normal"
+                android:background="@drawable/border_line"
+                android:fontFamily="sans-serif"
+                android:textColor="@color/black"
+                android:textAlignment="textStart"/>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.8"
+                android:id="@+id/tvLongitude"
+                android:textSize="12dp"
+                android:padding="2dp"
+                android:textStyle="normal"
+                android:background="@drawable/border_line"
+                android:fontFamily="sans-serif"
+                android:textColor="@color/black"
+                android:textAlignment="textStart"/>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.4"
+                android:id="@+id/tvTrackingTime"
+                android:textSize="12dp"
+                android:padding="2dp"
+                android:textStyle="normal"
+                android:background="@drawable/border_line"
+                android:fontFamily="sans-serif"
+                android:textColor="@color/black"
+                android:textAlignment="textStart"/>
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvAddress"
+            android:textSize="12dp"
+            android:textStyle="normal"
+            android:padding="2dp"
+            android:background="@drawable/border_line"
+            android:fontFamily="sans-serif"
+            android:textColor="@color/black"
+            android:textAlignment="textStart"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:layout_weight="0.3">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/arrow_forward"
+            ></TextView>
+    </LinearLayout>
+
+
+
+
+</LinearLayout>
+
+
